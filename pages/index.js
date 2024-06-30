@@ -9,8 +9,8 @@ export default function Home() {
       className="bg-black min-h-screen text-[#e7e9ea]
     max-w-[1400px] mx-auto flex"
     >
-      <Sidebar />
-      <Postfeed />
+      {/* <Sidebar />
+      <Postfeed /> */}
       <Trending />
     </div>
   );
