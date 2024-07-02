@@ -1,3 +1,6 @@
+import LoginModal from "./modals/LoginModal";
+import SignupModal from "./modals/SignupModal";
+
 export default function Banner() {
   return (
     <div className=" flex xl:space-x-[200px] justify-center items-center fixed w-full h-[80px] bg-[#1d9bf0] bottom-0">
@@ -8,14 +11,8 @@ export default function Banner() {
         </span>
       </div>
       <div className=" space-x-3">
-        <button
-          className=" bg-transparent border border-white text-white
-        w-[100px] rounded-full h-[40px]"
-        >
-          Log In
-        </button>
-        <button className="bg-black border border-black  text-white
-         w-[100px] rounded-full h-[40px]">Sign Up</button>
+        <LoginModal />
+        <SignupModal />
       </div>
     </div>
   );
